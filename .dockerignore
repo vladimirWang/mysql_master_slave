@@ -1,0 +1,46 @@
+# ===== VCS & metadata =====
+.git/
+.gitignore
+.gitattributes
+
+# ===== Docs & notes =====
+*.md
+docs/
+notes/
+
+# ===== IDE & editor =====
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+*~
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Local env & secrets =====
+.env
+.env.*
+*.secret
+
+# ===== Data, logs, backups (never bake into image) =====
+mysql_data/
+master_data/
+slave_data/
+data/
+logs/
+backup/
+backups/
+*.log
+*.sql.gz
+*.sql.bz2
+*.dump
+*.sock
+*.pid
+*.lock
+
+# ===== Docker =====
+Dockerfile*
+docker-compose*.yml
+.docker/

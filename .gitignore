@@ -1,0 +1,40 @@
+# ===== MySQL data & runtime =====
+mysql_data/
+master_data/
+slave_data/
+data/
+*.sock
+*.pid
+*.lock
+
+# ===== MySQL configs with secrets =====
+.env
+.env.*
+*.secret
+
+# ===== Logs =====
+*.log
+logs/
+mysql-slow.log
+error.log
+
+# ===== Backups & dumps =====
+*.sql.gz
+*.sql.bz2
+*.dump
+backup/
+backups/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.sublime-*
+
+# ===== Docker =====
+.docker/
