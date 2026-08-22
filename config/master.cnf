@@ -2,3 +2,6 @@
 server-id=1
 # 是否只读 1只读，0读写
 read-only=0
+
+default_authentication_plugin=mysql_native_password
+
